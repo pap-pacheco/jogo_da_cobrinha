@@ -1,0 +1,54 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: black;
+}
+
+p{
+    align-content: center;
+    color: darkred;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3{
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#tela{
+    border-color: black;
+    border-style: solid;
+}
+
+#titulo{
+    border-color: brown;
+    border-style: solid;
+    
+}
+
+#pontos, #niveis, #paredes{
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+#jogo{
+    align-items: center;
+}
+
+input[type='radio']:checked:before {
+    background: green;
+  }

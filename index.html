@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+    <div id="tela">
+        <table id="jogo">
+            <caption id="titulo"><h1>*****  SNAKE GAME!  *****</h1></caption>
+            <tbody>
+                <tr>
+                    <td>
+                        <h2>Pontos:</h2>
+                        <br>
+                        <div id="pontos"><b><p id="ponto"></p></b></div>
+                        <br>
+                        <h2>Velocidade:</h2>
+                        <br>
+                        <div id="niveis"><b><p id="nivel"></p></b></div>
+                    </td>
+                    <td>
+                        <canvas id="snake" width="512" height="512"></canvas> <!-- A área onde será apresentado algo -->
+                    </td>
+                    <td>
+                        
+                        <h3>Bordas:</h3>
+                        <br>
+                        <div id="paredes">
+                            <h4><input id="sim" type="radio" name="bordas" value="sim">Sim</h4>
+                            <br>
+                            <h4><input id="nao" type="radio" name="bordas" value="nao" checked>Não</h4>
+                        </div>                        
+                    </td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+    
+</body>
+</html>
